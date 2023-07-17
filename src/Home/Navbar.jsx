@@ -117,7 +117,7 @@ const Navbar = () => {
 
         <div ref={backTopBtnRef} className={`back-top-btn`}>
           <button onClick={() => window.scrollTo({ top: 0, behavior: 'smooth' })}>
-            <IonIcon icon={chevronUp} />
+            <IonIcon icon={chevronUp} style={{color: 'white'}}/>
           </button>
         </div>
 
