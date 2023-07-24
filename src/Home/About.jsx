@@ -5,7 +5,6 @@ import aboutBannerImage from './assets/images/about-banner.jpg';
 import aboutShape1Image from './assets/images/about-shape-1.png';
 import aboutShape2Image from './assets/images/about-shape-2.png';
 
-
 const About = () => {
   return (
     <section className="section about" id="about" aria-label="about">
@@ -17,11 +16,10 @@ const About = () => {
         </figure>
 
         <div className="about-content">
-          <p className="section-subtitle">Why Choose Us</p>
-          <h2 className="h2 section-title">We Are Professional Logistics &amp; Cargo Agency</h2>
+          <p className="section-subtitle">QUI SOMMES NOUS</p>
+          <h2 className="h2 section-title">Comptez sur nous pour une livraison de vos colis dans des conditions optimales.</h2>
           <p className="section-text">
-            Sed ut perspiciatis unde omnis iste natus error volup tatem accusantium dolorem que laudantium, totam
-            inventore.
+          L'AVION Express, société 100% tunisienne, spécialisée dans le transport routier et la livraison de colis.
           </p>
 
           <ul className="about-list">
@@ -29,7 +27,7 @@ const About = () => {
               <div className="about-icon">
                 <IonIcon icon={chevronForward} />
               </div>
-              <p className="about-text">Go beyond logistics, make the world go round and revolutionize business.</p>
+              <p className="about-text">Leader national pour des solutions de livraison rapides et personnalisées.</p>
             </li>
             {/* Add the rest of the list items */}
             <li className="about-item">
@@ -38,7 +36,7 @@ const About = () => {
                 </div>
 
                 <p className="about-text">
-                  Logistics through innovation, dedication, and technology. ready, set, done.
+                Notre culture d'entreprise place l'expéditeur et ses besoins en tête de nos priorités.
                 </p>
               </li>
 
@@ -48,7 +46,7 @@ const About = () => {
                 </div>
 
                 <p className="about-text">
-                  We take pride in serving our customers safely. together with passion.
+                Livraison garantie partout en Tunisie pour les entreprises de toutes tailles et les professionnels.
                 </p>
               </li>
 
@@ -58,7 +56,7 @@ const About = () => {
                 </div>
 
                 <p className="about-text">
-                  Imagination what we can easily see is only a small percentage.
+                Des services variés et un réseau étendu pour satisfaire vos exigences uniques.
                 </p>
               </li>
 
@@ -68,7 +66,7 @@ const About = () => {
                 </div>
 
                 <p className="about-text">
-                  Quality never goes out of style. safety, quality, professionalism.
+                La qualité ne se démode jamais. Sécurité, qualité, professionnalisme.
                 </p>
               </li>
 
@@ -78,14 +76,10 @@ const About = () => {
                 </div>
 
                 <p className="about-text">
-                  The quality shows in every move we make where business lives.
+                La qualité se voit dans chaque mouvement que nous faisons.
                 </p>
               </li>
           </ul>
-
-          <a href="#" className="btn">
-            Learn More
-          </a>
         </div>
       </div>
     </section>

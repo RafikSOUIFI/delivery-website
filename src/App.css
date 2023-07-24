@@ -1290,7 +1290,7 @@ body {
     background-position: left;
   }
 
-  .hero-title .span { --fs-2: 14rem; }
+  .hero-title .span { --fs-2: 10rem; }
 
   .hero-text { --fs-7: 2.4rem; }
 

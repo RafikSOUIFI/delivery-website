@@ -1,7 +1,7 @@
 import React, { useState, useEffect, useRef } from 'react';
 import { IonIcon } from '@ionic/react';
 import { closeOutline, menuOutline, chevronForward, chevronUp, callOutline, logInOutline } from 'ionicons/icons';
-
+import logo from "./assets/images/logo.png"
 const Navbar = () => {
   const [isActive, setIsActive] = useState(false);
   const headerRef = useRef(null);
@@ -45,14 +45,14 @@ const Navbar = () => {
       <div className="container">
         <h1>
           <a href="#" className="logo">
-            Transportio
+            <img src={logo} alt="Logo"  style={{ width: '150px', height: '55.5px' }}/>
           </a>
         </h1>
 
         <nav className={`navbar ${isActive ? 'active' : ''}`}>
           <div className="navbar-top">
             <a href="#" className="logo">
-              Transportio
+            <img src={logo} alt="Logo"  style={{ width: '150px', height: '55.5px' }}/>
             </a>
             <button className="nav-close-btn" aria-label="Close menu" onClick={handleNavToggle}>
               <IonIcon icon={closeOutline} />
@@ -62,13 +62,13 @@ const Navbar = () => {
           <ul className={`navbar-list ${isActive ? 'active' : ''}`}>
             <li className="navbar-item">
               <a href="#home" className="navbar-link" onClick={handleNavLinkClick}>
-                <span>Home</span>
+                <span>Accueil</span>
                 <IonIcon icon={chevronForward} />
               </a>
             </li>
             <li className="navbar-item">
               <a href="#about" className="navbar-link" onClick={handleNavLinkClick}>
-                <span>About</span>
+                <span>À propos de nous</span>
                 <IonIcon icon={chevronForward} />
               </a>
             </li>
@@ -80,7 +80,7 @@ const Navbar = () => {
             </li>
             <li className="navbar-item">
               <a href="#blog" className="navbar-link" onClick={handleNavLinkClick}>
-                <span>Blog</span>
+                <span>Smart Livraison</span>
                 <IonIcon icon={chevronForward} />
               </a>
             </li>
@@ -101,9 +101,9 @@ const Navbar = () => {
 
         <div className="header-contact">
           <div>
-            <p className="contact-label">Free Call In U.S.A</p>
-            <a href="tel:12345678910" className="contact-number">
-              1 234 567 8910
+            <p className="contact-label">Service client</p>
+            <a href="tel:22143383" className="contact-number">
+              22 142 383
             </a>
           </div>
           <div className="contact-icon">

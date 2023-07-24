@@ -8,10 +8,10 @@ const Hero = () => {
       <div className="container">
         <div className="hero-content">
           <h2 className="h1 hero-title">
-            <span className="span">To Every</span> Direction
+            <span className="span">Vitesse et</span>précision
           </h2>
           <p className="hero-text">
-            There are many variations of passages of worem Ipsum available, but the majority
+          Le service de livraison à domicile le plus rapide en Tunisie
           </p>
           <a href="#" className="btn-outline">
             View Services

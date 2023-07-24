@@ -15,26 +15,7 @@ const Newsletter = () => {
           />
         </figure>
         <div className="newsletter-content">
-          <h2 className="h2 section-title">Subscribe for offers and news</h2>
-          <form action="" className="newsletter-form">
-            <input
-              type="email"
-              name="email_address"
-              placeholder="Enter Your Email"
-              aria-label="email"
-              className="email-field"
-            />
-            {/* <input
-              type="password"
-              name="email_address"
-              placeholder="Enter Your Email"
-              aria-label="email"
-              className="email-field"
-            /> */}
-            <button type="submit" className="newsletter-btn">
-              Subscribe Now
-            </button>
-          </form>
+          <h2 className="h2 section-title">Rejoignez-nous !</h2>
         </div>
       </div>
     </section>

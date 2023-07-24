@@ -1,6 +1,4 @@
 import React from 'react';
-import { IonIcon } from '@ionic/react';
-import { chevronForward } from 'ionicons/icons';
 import blog1 from "./assets/images/blog-1.jpg"
 import blog2 from "./assets/images/blog-2.jpg"
 
@@ -8,11 +6,10 @@ const Blog = () => {
   return (
     <section className="section blog" aria-label="blog" id="blog">
       <div className="container">
-        <p className="section-subtitle">Our Blogs</p>
-        <h2 className="h2 section-title">Recent news & events</h2>
+        <p className="section-subtitle">Accélérez votre croissance.</p>
+        <h2 className="h2 section-title">VOUS AVEZ UN COMMERCE EN LIGNE?</h2>
         <p className="section-text">
-          Lorem Ipsum is simply dummy text of the printing and typesetting industry the standard dummy text ever since
-          the when an printer took.
+        L'AVION Express vous accompagne pour le développement de votre business en ligne et vous assure la livraison express de vos colis en 24H dans les meilleures conditions sur tout le territoire tunisien.
         </p>
         <ul className="blog-list grid-list">
           <li>
@@ -29,22 +26,16 @@ const Blog = () => {
               </figure>
               <div className="card-content">
                 <time className="card-meta" datetime="2022-08-02">
-                  <span className="span">02</span> Aug
+                  <span className="span">24</span>/24
                 </time>
                 <h3 className="h3 card-title">
-                  <a href="#">
-                    At the end of the day, going forward, a new normal that has evolved from. your only logistic
-                    partner.
-                  </a>
+                  
+                En avant, un partenaire logistique fiable, pour une nouvelle normalité adaptée à vos besoins.
+                
                 </h3>
                 <p className="card-text">
-                  New chip traps clusters of migrating tumor cells asperiortenetur, blanditiis odit. typesetting industry
-                  the standard dummy text ever since the when an printer.
+                Nous vous accompagnons vers une nouvelle normalité, en proposant des solutions adaptées à vos besoins. Notre engagement envers la qualité, la sécurité et la rapidité assure une livraison efficace de vos colis partout en Tunisie. Fiez-vous à notre expertise pour une expérience de livraison sans pareille, répondant à toutes vos attentes professionnelles.
                 </p>
-                <a href="#" className="btn-link">
-                  <IonIcon icon={chevronForward} aria-hidden="true" />
-                  <span className="span">Read More</span>
-                </a>
               </div>
             </div>
           </li>
@@ -62,22 +53,14 @@ const Blog = () => {
               </figure>
               <div className="card-content">
                 <time className="card-meta" datetime="2022-08-21">
-                  <span className="span">21</span> Aug
+                  <span className="span">07</span> /07
                 </time>
                 <h3 className="h3 card-title">
-                  <a href="#">
-                    Going forward, a new normal that has evolved from generation. moving your products across all
-                    borders.
-                  </a>
+                  Vous possédez un commerce en ligne ? Confiez-nous la gestion logistique de vos livraisons. 
                 </h3>
                 <p className="card-text">
-                  New chip traps clusters of migrating tumor cells asperiortenetur, blanditiis odit. typesetting industry
-                  the standard dummy text ever since the when an printer.
+                L'AVION Express est votre partenaire dédié pour assurer des solutions de livraison rapides, sécurisées et personnalisées. Avec notre réseau étendu couvrant tout le territoire tunisien, vous pouvez vous concentrer sur votre activité tandis que nous nous occupons de la distribution de vos colis en toute efficacité. Simplifiez votre processus logistique avec notre expertise éprouvée et offrez à vos clients une expérience de livraison optimale.
                 </p>
-                <a href="#" className="btn-link">
-                  <IonIcon icon={chevronForward} aria-hidden="true" />
-                  <span className="span">Read More</span>
-                </a>
               </div>
             </div>
           </li>

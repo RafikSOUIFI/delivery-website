@@ -2,8 +2,6 @@ import Navbar from './Navbar';
 import Hero from './Hero';
 import About from './About';
 import Service from './Service';
-import Feature from './Feature';
-import Projects from './Projects';
 import Blog from './Blog';
 import Newsletter from './Newsletter';
 import Footer from './Footer';
@@ -18,8 +16,6 @@ const Home = () => {
                     <Hero />
                     <About />
                     <Service />
-                    <Feature />
-                    <Projects />
                     <Blog />
                     <Newsletter />
                 </article>
