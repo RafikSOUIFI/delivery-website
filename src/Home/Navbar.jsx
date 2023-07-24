@@ -96,6 +96,12 @@ const Navbar = () => {
                 <IonIcon icon={chevronForward} />
               </a>
             </li>
+            {isActive && <li className="navbar-item" style={{ cursor: 'pointer' }}>
+              <a href="tel:22143383" className="navbar-link" onClick={handleLogin}>
+                <span>Service client</span>
+                <IonIcon icon={chevronForward} />
+              </a>
+            </li>}
           </ul>
         </nav>
 
