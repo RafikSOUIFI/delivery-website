@@ -17,7 +17,7 @@ const Navbar = () => {
 
   const handleLogin = (event) => {
     if (event.target.textContent === 'Mon Compte') {
-      window.location.href = 'https://www.claquette.online';
+      window.location.href = 'https://dashboard-lavion-express.netlify.app/';
     }
     setIsActive(false);
   };

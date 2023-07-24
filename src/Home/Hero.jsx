@@ -5,7 +5,7 @@ import heroShapeImage from './assets/images/hero-shape.png';
 const Hero = () => {
   const handleLogin = (event) => {
     if (event.target.textContent === 'Accéder à votre compte') {
-      window.location.href = 'https://www.claquette.online';
+      window.location.href = 'https://dashboard-lavion-express.netlify.app/';
     }
   };
   return (
