@@ -3,6 +3,11 @@ import heroBannerImage from './assets/images/hero-banner.jpg';
 import heroShapeImage from './assets/images/hero-shape.png';
 
 const Hero = () => {
+  const handleLogin = (event) => {
+    if (event.target.textContent === 'Accéder à votre compte') {
+      window.location.href = 'https://www.claquette.online';
+    }
+  };
   return (
     <section className="section hero" aria-label="home" id="home" style={{ backgroundImage: `url(${heroBannerImage})` }}>
       <div className="container">
@@ -13,8 +18,8 @@ const Hero = () => {
           <p className="hero-text">
           Le service de livraison à domicile le plus rapide en Tunisie
           </p>
-          <a href="#" className="btn-outline">
-            View Services
+          <a  className="btn-outline" onClick={handleLogin} style={{ cursor: 'pointer' }}>
+          Accéder à votre compte
           </a>
           <img src={heroShapeImage} width="116" height="116" loading="lazy" className="hero-shape shape-1" alt="Shape 1" />
           <img src={heroShapeImage} width="116" height="116" loading="lazy" className="hero-shape shape-2" alt="Shape 2" />
