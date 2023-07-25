@@ -109,7 +109,7 @@ const Navbar = () => {
           <div>
             <p className="contact-label">Service client</p>
             <a href="tel:22143383" className="contact-number">
-              22 142 383
+              22 143 383
             </a>
           </div>
           <div className="contact-icon">
