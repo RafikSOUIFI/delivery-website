@@ -1,6 +1,6 @@
 import React, { useState, useEffect, useRef } from 'react';
 import { IonIcon } from '@ionic/react';
-import { closeOutline, menuOutline, chevronForward, chevronUp, callOutline, logInOutline } from 'ionicons/icons';
+import { closeOutline, menuOutline, chevronForward, chevronUp, callOutline } from 'ionicons/icons';
 import logo from "./assets/images/logo.png"
 const Navbar = () => {
   const [isActive, setIsActive] = useState(false);
@@ -17,7 +17,7 @@ const Navbar = () => {
 
   const handleLogin = (event) => {
     if (event.target.textContent === 'Mon Compte') {
-      window.location.href = 'https://dashboard-lavion-express.netlify.app/';
+      window.location.href = 'https://dashboard-express-delivery.netlify.app/';
     }
     setIsActive(false);
   };
@@ -45,14 +45,14 @@ const Navbar = () => {
       <div className="container">
         <h1>
           <a href="#" className="logo">
-            <img src={logo} alt="Logo"  style={{ width: '150px', height: '55.5px' }}/>
+            <img src={logo} alt="Logo"  style={{ width: '100px', height: '52.68px' }}/>
           </a>
         </h1>
 
         <nav className={`navbar ${isActive ? 'active' : ''}`}>
           <div className="navbar-top">
             <a href="#" className="logo">
-            <img src={logo} alt="Logo"  style={{ width: '150px', height: '55.5px' }}/>
+            <img src={logo} alt="Logo"  style={{ width: '100px', height: '52.68px' }}/>
             </a>
             <button className="nav-close-btn" aria-label="Close menu" onClick={handleNavToggle}>
               <IonIcon icon={closeOutline} />
@@ -97,7 +97,7 @@ const Navbar = () => {
               </a>
             </li>
             {isActive && <li className="navbar-item" style={{ cursor: 'pointer' }}>
-              <a href="tel:22143383" className="navbar-link" onClick={handleLogin}>
+              <a href="tel:58023439" className="navbar-link" onClick={handleLogin}>
                 <span>Service client</span>
                 <IonIcon icon={chevronForward} />
               </a>
@@ -108,8 +108,8 @@ const Navbar = () => {
         <div className="header-contact">
           <div>
             <p className="contact-label">Service client</p>
-            <a href="tel:22143383" className="contact-number">
-              22 143 383
+            <a href="tel:58023439" className="contact-number">
+              58 023 439
             </a>
           </div>
           <div className="contact-icon">

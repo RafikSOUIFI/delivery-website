@@ -5,7 +5,7 @@ import heroShapeImage from './assets/images/hero-shape.png';
 const Hero = () => {
   const handleLogin = (event) => {
     if (event.target.textContent === 'Accéder à votre compte') {
-      window.location.href = 'https://dashboard-lavion-express.netlify.app/';
+      window.location.href = 'https://dashboard-express-delivery.netlify.app/';
     }
   };
   return (

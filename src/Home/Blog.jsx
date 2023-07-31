@@ -9,7 +9,7 @@ const Blog = () => {
         <p className="section-subtitle">Accélérez votre croissance.</p>
         <h2 className="h2 section-title">VOUS AVEZ UN COMMERCE EN LIGNE?</h2>
         <p className="section-text">
-        L'AVION Express vous accompagne pour le développement de votre business en ligne et vous assure la livraison express de vos colis en 24H dans les meilleures conditions sur tout le territoire tunisien.
+        Express Delivery vous accompagne pour le développement de votre business en ligne et vous assure la livraison express de vos colis en 24H dans les meilleures conditions sur tout le territoire tunisien.
         </p>
         <ul className="blog-list grid-list">
           <li>
@@ -59,7 +59,7 @@ const Blog = () => {
                   Vous possédez un commerce en ligne ? Confiez-nous la gestion logistique de vos livraisons. 
                 </h3>
                 <p className="card-text">
-                L'AVION Express est votre partenaire dédié pour assurer des solutions de livraison rapides, sécurisées et personnalisées. Avec notre réseau étendu couvrant tout le territoire tunisien, vous pouvez vous concentrer sur votre activité tandis que nous nous occupons de la distribution de vos colis en toute efficacité. Simplifiez votre processus logistique avec notre expertise éprouvée et offrez à vos clients une expérience de livraison optimale.
+                Express Delivery est votre partenaire dédié pour assurer des solutions de livraison rapides, sécurisées et personnalisées. Avec notre réseau étendu couvrant tout le territoire tunisien, vous pouvez vous concentrer sur votre activité tandis que nous nous occupons de la distribution de vos colis en toute efficacité. Simplifiez votre processus logistique avec notre expertise éprouvée et offrez à vos clients une expérience de livraison optimale.
                 </p>
               </div>
             </div>

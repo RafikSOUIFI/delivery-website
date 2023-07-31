@@ -19,7 +19,7 @@ const About = () => {
           <p className="section-subtitle">QUI SOMMES NOUS</p>
           <h2 className="h2 section-title">Comptez sur nous pour une livraison de vos colis dans des conditions optimales.</h2>
           <p className="section-text">
-          L'AVION Express, société 100% tunisienne, spécialisée dans le transport routier et la livraison de colis.
+          Express Delivery, société 100% tunisienne, spécialisée dans le transport routier et la livraison de colis.
           </p>
 
           <ul className="about-list">

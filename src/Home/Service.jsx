@@ -23,7 +23,7 @@ const Service = () => {
                 <span className="span">01</span> SERVICE PICK UP
               </h3>
               <p className="card-text">
-              L'AVION Express assure le PICK UP de vos colis partout en Tunisie, selon vos besoins : à la demande ou de manière systématique.
+              Express Delivery assure le PICK UP de vos colis partout en Tunisie, selon vos besoins : à la demande ou de manière systématique.
               </p>
             </div>
           </li>
@@ -36,7 +36,7 @@ const Service = () => {
                 <span className="span">02</span>LIVRAISON
               </h3>
               <p className="card-text">
-              L'AVION Express assure une livraison sécurisée dans toute la Tunisie. Suivi en temps réel et notifications SMS disponibles.
+              Express Delivery assure une livraison sécurisée dans toute la Tunisie. Suivi en temps réel et notifications SMS disponibles.
               </p>
             </div>
           </li>
