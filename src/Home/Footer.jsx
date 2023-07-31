@@ -7,7 +7,7 @@ const Footer = () => {
       <div className="container">
         <div className="footer-bottom">
           <p className="copyright">
-            &copy; {currentYear} L'AVION Express. All Rights Reserved by <a href="#" className="copyright-link">Rafik SOUIFI</a>
+            &copy; {currentYear} Express Delivery. All Rights Reserved by <a href="#" className="copyright-link">Rafik SOUIFI</a>
           </p>
         </div>
       </div>
